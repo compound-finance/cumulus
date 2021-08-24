@@ -7,19 +7,19 @@ edition = "2018"
 
 [dependencies]
 # Substrate deps
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-maybe-compressed-blob = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-consensus = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-runtime = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-core = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-maybe-compressed-blob = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-client-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-consensus = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 # Polkadot deps
-polkadot-primitives = { git = "https://github.com/paritytech/polkadot", branch = "master" }
-polkadot-node-primitives = { git = "https://github.com/paritytech/polkadot", branch = "master" }
-polkadot-overseer = { git = "https://github.com/paritytech/polkadot", branch = "master" }
-polkadot-node-subsystem = { git = "https://github.com/paritytech/polkadot", branch = "master" }
+polkadot-primitives = { git = "https://github.com/compound-finance/polkadot", branch = "gateway" }
+polkadot-node-primitives = { git = "https://github.com/compound-finance/polkadot", branch = "gateway" }
+polkadot-overseer = { git = "https://github.com/compound-finance/polkadot", branch = "gateway" }
+polkadot-node-subsystem = { git = "https://github.com/compound-finance/polkadot", branch = "gateway" }
 
 # Cumulus deps
 cumulus-primitives-core = { path = "../../primitives/core" }
@@ -38,13 +38,13 @@ tokio = { version = "0.2.21", features = ["macros"] }
 cumulus-test-service = { path = "../../test/service" }
 
 # Polkadot deps
-polkadot-test-client = { git = "https://github.com/paritytech/polkadot", branch = "master" }
+polkadot-test-client = { git = "https://github.com/compound-finance/polkadot", branch = "gateway" }
 
 # substrate deps
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-keystore = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-cli = { git = "https://github.com/paritytech/substrate", branch = "master" }
-substrate-test-utils = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-service = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sc-client-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-core = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-keyring = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-keystore = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-cli = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+substrate-test-utils = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-service = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }

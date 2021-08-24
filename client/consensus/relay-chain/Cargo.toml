@@ -7,19 +7,19 @@ edition = "2018"
 
 [dependencies]
 # Substrate deps
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-block-builder = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
-substrate-prometheus-endpoint = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-consensus = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-inherents = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-runtime = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-core = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-blockchain = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-block-builder = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-client-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-consensus = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+substrate-prometheus-endpoint = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 # Polkadot dependencies
-polkadot-client = { git = "https://github.com/paritytech/polkadot", branch = "master" }
+polkadot-client = { git = "https://github.com/compound-finance/polkadot", branch = "gateway" }
 
 # Cumulus dependencies
 cumulus-client-consensus-common = { path = "../common" }

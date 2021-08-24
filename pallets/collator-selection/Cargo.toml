@@ -16,25 +16,25 @@ targets = ['x86_64-unknown-linux-gnu']
 log = { version = "0.4.0", default-features = false }
 codec = { default-features = false, features = ['derive'], package = 'parity-scale-codec', version = '2.0.0' }
 serde = { version = "1.0.119", default-features = false }
-sp-std = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "master" }
-sp-runtime = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "master" }
-sp-staking = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "master" }
-frame-support = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "master" }
-frame-system = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "master" }
-pallet-authorship = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "master" }
-pallet-session = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "master" }
+sp-std = { default-features = false, git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+sp-runtime = { default-features = false, git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+sp-staking = { default-features = false, git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+frame-support = { default-features = false, git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+frame-system = { default-features = false, git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+pallet-authorship = { default-features = false, git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+pallet-session = { default-features = false, git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
 
-frame-benchmarking = { default-features = false, optional = true, git = 'https://github.com/paritytech/substrate', branch = "master" }
+frame-benchmarking = { default-features = false, optional = true, git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
 
 [dev-dependencies]
-sp-core = { git = 'https://github.com/paritytech/substrate', branch = "master" }
-sp-io = { git = 'https://github.com/paritytech/substrate', branch = "master" }
-sp-tracing = { git = 'https://github.com/paritytech/substrate', branch = "master" }
-sp-runtime = { git = 'https://github.com/paritytech/substrate', branch = "master" }
-pallet-timestamp = { git = 'https://github.com/paritytech/substrate', branch = "master" }
-sp-consensus-aura = { git = 'https://github.com/paritytech/substrate', branch = "master" }
-pallet-balances = { git = 'https://github.com/paritytech/substrate', branch = "master" }
-pallet-aura = { git = 'https://github.com/paritytech/substrate', branch = "master" }
+sp-core = { git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+sp-io = { git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+sp-tracing = { git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+sp-runtime = { git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+pallet-timestamp = { git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+sp-consensus-aura = { git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+pallet-balances = { git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
+pallet-aura = { git = 'https://github.com/compound-finance/substrate', branch = "gateway" }
 
 [features]
 default = ['std']

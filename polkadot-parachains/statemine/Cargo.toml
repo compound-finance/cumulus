@@ -14,41 +14,41 @@ smallvec = "1.6.1"
 hex-literal = { version = '0.3.1', optional = true }
 
 # Substrate dependencies
-sp-std = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-io = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-version = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-session = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-offchain = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-block-builder = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-transaction-pool = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-consensus-aura = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
+sp-std = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-api = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-io = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-version = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-runtime = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-core = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-session = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-offchain = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-block-builder = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-transaction-pool = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-inherents = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+sp-consensus-aura = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
 
-frame-benchmarking = { git = "https://github.com/paritytech/substrate", optional = true, default-features = false, branch = "master" }
-frame-system-benchmarking = { git = "https://github.com/paritytech/substrate", optional = true, default-features = false, branch = "master" }
-frame-support = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-frame-executive = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-frame-system = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-frame-system-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-assets = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-aura = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-authorship = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-balances = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-multisig = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-proxy = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-randomness-collective-flip = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-session = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-sudo = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-timestamp = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-transaction-payment = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-uniques = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-utility = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
+frame-benchmarking = { git = "https://github.com/compound-finance/substrate", optional = true, default-features = false, branch = "gateway" }
+frame-system-benchmarking = { git = "https://github.com/compound-finance/substrate", optional = true, default-features = false, branch = "gateway" }
+frame-support = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+frame-executive = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+frame-system = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+frame-system-rpc-runtime-api = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-assets = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-aura = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-authorship = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-balances = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-multisig = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-proxy = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-randomness-collective-flip = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-session = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-sudo = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-timestamp = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-transaction-payment = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-uniques = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
+pallet-utility = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
 
-node-primitives = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
+node-primitives = { git = "https://github.com/compound-finance/substrate", default-features = false, branch = "gateway" }
 
 # Cumulus dependencies
 cumulus-pallet-aura-ext = { path = "../../pallets/aura-ext", default-features = false }
@@ -65,19 +65,19 @@ pallet-collator-selection = { path = "../../pallets/collator-selection", default
 parachains-common = { path = "../parachains-common", default-features = false }
 
 # Polkadot dependencies
-polkadot-parachain = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "master" }
-polkadot-runtime-common = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "master" }
-xcm = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "master" }
-xcm-builder = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "master" }
-xcm-executor = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "master" }
-pallet-xcm = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "master" }
+polkadot-parachain = { git = "https://github.com/compound-finance/polkadot", default-features = false, branch = "gateway" }
+polkadot-runtime-common = { git = "https://github.com/compound-finance/polkadot", default-features = false, branch = "gateway" }
+xcm = { git = "https://github.com/compound-finance/polkadot", default-features = false, branch = "gateway" }
+xcm-builder = { git = "https://github.com/compound-finance/polkadot", default-features = false, branch = "gateway" }
+xcm-executor = { git = "https://github.com/compound-finance/polkadot", default-features = false, branch = "gateway" }
+pallet-xcm = { git = "https://github.com/compound-finance/polkadot", default-features = false, branch = "gateway" }
 
 [dev-dependencies]
 hex-literal = "0.3.1"
 hex = "0.4.3"
 
 [build-dependencies]
-substrate-wasm-builder = { git = "https://github.com/paritytech/substrate", branch = "master" }
+substrate-wasm-builder = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 [features]
 default = [ "std" ]
